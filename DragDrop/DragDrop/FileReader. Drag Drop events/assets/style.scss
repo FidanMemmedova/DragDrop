@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upload-item {
+    width: 1000px;
+    height: 400px;
+    background-color: lightsalmon;
+    margin: 50px auto;
+    cursor: pointer;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+        color: darkslateblue;
+        font-size: 60px;
+    }
+    input {
+        display: none;
+    }
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    &:hover {
+        opacity: .8;
+    }
+}
+
+.removeall {
+    margin-top: 10px;
+    margin-left: 150px;
+}
